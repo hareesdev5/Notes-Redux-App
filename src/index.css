@@ -1,0 +1,19 @@
+#app{
+    border: solid 1px;
+    height: 680px;
+}
+.textarea{ 
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;        
+}
+.f-color{
+    color:#203562;
+}
+.scroll{
+    overflow-x: scroll;
+    max-width: 900px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
