@@ -157,7 +157,7 @@ function addnote() {
             <label  className='h6 f-color'>Take a note...</label>
             {errors.content && touched.content ? <div style={{color:'red'}}>{errors.content}</div>:null}
           </div>
-          <div className='d-flex align-item-center'>
+          <div className='d-flex align-item-center justify-content-end '>
             <Button className='mt-2' type='submit' disabled={isSubmitting} >{initialValue.id ? 'Update note' : 'Add note'}</Button>
           </div>
        </Form>
